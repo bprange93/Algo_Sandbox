@@ -39,11 +39,14 @@ namespace Demo_Test_2
             }
             else
             {
-                //int anagramWord.IndexOf();
-                //int result1 = int.Parse(isAnagram);
-                //int lettersNeeded = (result - result1);
-                //result.CompareTo(result1);
-                Console.WriteLine("Not Anagram");
+                //created ints, got count of characters in string
+                //lettersNeeded takes results - result 1 to give number
+
+                int result = (int)anagramWord.LongCount();
+                int result1 = (int)isAnagram.LongCount();
+                int lettersNeeded = result - result1;
+                
+                Console.WriteLine("Not Anagram " + lettersNeeded + " letter(s) needed");
             }
             Console.ReadLine();
 
