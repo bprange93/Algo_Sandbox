@@ -12,6 +12,9 @@ namespace Demo_Test_2
         {
             string word1;
             string word2;
+            int firstWordLetters;
+            int secondWordLetters;
+
 
             //ask for words to be tested for anagrams
             //compare the letters in the word
@@ -36,9 +39,19 @@ namespace Demo_Test_2
             }
             else
             {
+                //int anagramWord.IndexOf();
+                //int result1 = int.Parse(isAnagram);
+                //int lettersNeeded = (result - result1);
+                //result.CompareTo(result1);
                 Console.WriteLine("Not Anagram");
             }
             Console.ReadLine();
+
+            
+            //find way to turn string into total characters in word
+            //anagramWord.Count() = firstWordLetters;
+            //word2.Count() = secondWordLetters;
+            //int lettersNeeded;
         }
 
     }
