@@ -45,6 +45,12 @@ namespace Demo_Test_2
                 int result = (int)anagramWord.LongCount();
                 int result1 = (int)isAnagram.LongCount();
                 int lettersNeeded = result - result1;
+
+                //Makes sure lettersNeeded is a positive number
+                if(lettersNeeded < 0)
+                {
+                    lettersNeeded = result1 - result;
+                }
                 
                 Console.WriteLine("Not Anagram " + lettersNeeded + " letter(s) needed");
             }
