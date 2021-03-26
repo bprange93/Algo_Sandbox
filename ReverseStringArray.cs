@@ -12,6 +12,7 @@ namespace Demo_Test_2
         {
             char[] temp = word.ToCharArray();
             Array.Reverse(temp);
+            Console.WriteLine(temp);
             Console.ReadLine();
         }
     }
