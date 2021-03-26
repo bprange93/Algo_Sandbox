@@ -22,7 +22,8 @@ namespace Demo_Test_2
             //Anagram anagram = new Anagram();
             //anagram.anagramTest();
 
-
+            ReverseStringArray reverseStringArray = new ReverseStringArray();
+            reverseStringArray.reverseStringArray("cyclone");
         }
     }
 }
