@@ -19,8 +19,10 @@ namespace Demo_Test_2
             //ReverseString reverseString = new ReverseString();
             //reverseString.reverseString();
 
-            Anagram anagram = new Anagram();
-            anagram.anagramTest();
+            //Anagram anagram = new Anagram();
+            //anagram.anagramTest();
+
+
         }
     }
 }
