@@ -15,5 +15,45 @@ namespace Demo_Test_2
             Console.WriteLine(temp);
             Console.ReadLine();
         }
+
+        public void reverseArray()
+        {
+            string[] word;
+
+           
+            
+            
+            Console.ReadLine();
+
+        }
+
+        public static string Order(string phrase)
+        {
+            if (phrase == "") return phrase;
+
+            string[] words = phrase.Split(' ');
+            string[] newWords = new string[words.Length];
+            int wordsSorted = 1;
+            for (int i = 0; i <= words.Length - 1; i++)
+            {
+                foreach (string word in words) 
+                {
+
+                    if (word.Contains(wordsSorted.ToString())) {
+                        newWords[i] = word;
+                        wordsSorted++;
+                        break;
+                    }
+                }
+
+            }
+
+            string newString = "";
+            foreach (var word in newWords)
+                newString += word + " ";
+            Console.WriteLine(newString);
+            return newString;
+        }
+
     }
 }
