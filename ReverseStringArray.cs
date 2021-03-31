@@ -16,22 +16,7 @@ namespace Demo_Test_2
             Console.ReadLine();
         }
 
-        //public void reverseArray()
-        //{
-        //    string[] reverseWord = word.             
-            
-        //    for(int i = word[0].Length - 1; i >= 0; i--)
-        //    {
-        //        string reverseWord = word[i];
-        //        Console.WriteLine(reverseWord);
-                
-        //    }
-        //    Console.ReadLine();                
-           
-            
-
-        //}
-
+       
         public static string Order(string phrase)
         {
             if (phrase == "") return phrase;
