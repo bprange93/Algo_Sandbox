@@ -22,9 +22,24 @@ namespace Demo_Test_2
             //Anagram anagram = new Anagram();
             //anagram.anagramTest();
 
-            ReverseStringArray reverseStringArray = new ReverseStringArray();
-            reverseStringArray.reverseArray();
+            //ReverseStringArray reverseStringArray = new ReverseStringArray();
+            //reverseStringArray.reverseArray();
 
+
+
+            //Console.WriteLine("Please enter string to be reverse.");
+
+            //string stringArray = Console.ReadLine();
+            
+
+            //for (int i = stringArray.Length - 1; i >= 0; i--)
+            //{
+                
+            //    char temp = stringArray.Last();
+            //    Console.WriteLine(temp);
+            //}
+           
+            //Console.ReadLine();
 
 
         }
