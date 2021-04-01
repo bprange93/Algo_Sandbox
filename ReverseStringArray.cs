@@ -45,5 +45,11 @@ namespace Demo_Test_2
             return newString;
         }
 
+        public static string Order2(string words){
+            if (string.IsNullOrEmpty(words)) return words;
+                return string.Join(" ", words.Split(' ').OrderBy(s => s.ToList().Find(c => char.IsDigit(c))));
+
+        }
+
     }
 }
