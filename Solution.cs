@@ -69,7 +69,35 @@ namespace Demo_Test_2
         {
 
         }
-        
+
+        //public static bool validPin(string pin){
+        //foreach through ASCII
+        //use length to set if it isnt 4 or 6 doesnt work
+        //character in ASCII
+
+        //another way would be to use tryParse to change string into int 
+
+        //}
+
+        //another way to do challenge
+        public static bool IsPinValid(string pin)
+        {
+            if (Int32.TryParse(pin, out int numValue) == true)
+            {
+                if (pin.Length == 4 || pin.Length == 6)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            else
+            {
+                return false;
+            }
+        }
 
     }
 }
