@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Demo_Test_2
 {
-    class Palindrome
+    public static class Palindrome
     {
-        public void palindromeTest() {
+        //static to be accessible from anywhere. 
+        public static void palindromeTest() {
 
             //instantiate a string variable
             string word;
