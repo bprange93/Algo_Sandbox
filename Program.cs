@@ -8,13 +8,13 @@ namespace Demo_Test_2
 {
     class Program
     {
+        //made static to be able to access without calling class 
         static void Main(string[] args)
         {
             //Solution solution = new Solution();
             //solution.runSolution();
 
-            //Palindrome palindrome = new Palindrome();
-            //palindrome.palindromeTest();
+            Palindrome.palindromeTest();
 
             //ReverseString reverseString = new ReverseString();
             //reverseString.reverseString();
@@ -41,6 +41,7 @@ namespace Demo_Test_2
            
             //Console.ReadLine();
 
+            
 
         }
     }
