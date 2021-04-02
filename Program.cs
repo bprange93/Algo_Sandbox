@@ -14,7 +14,7 @@ namespace Demo_Test_2
             //Solution solution = new Solution();
             //solution.runSolution();
 
-            Palindrome.palindromeTest();
+            //Palindrome.palindromeTest();
 
             //ReverseString reverseString = new ReverseString();
             //reverseString.reverseString();
@@ -30,18 +30,19 @@ namespace Demo_Test_2
             //Console.WriteLine("Please enter string to be reverse.");
 
             //string stringArray = Console.ReadLine();
-            
+
 
             //for (int i = stringArray.Length - 1; i >= 0; i--)
             //{
-                
+
             //    char temp = stringArray.Last();
             //    Console.WriteLine(temp);
             //}
-           
+
             //Console.ReadLine();
 
-            
+            Solution solution = new Solution();
+            solution.Mulitply("2", "3");
 
         }
     }
