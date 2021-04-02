@@ -41,8 +41,12 @@ namespace Demo_Test_2
 
             //Console.ReadLine();
 
+            //Solution solution = new Solution();
+            //solution.Mulitply("2", "3");
+
             Solution solution = new Solution();
-            solution.Mulitply("2", "3");
+            Console.WriteLine(solution.validPin("9461"));
+            Console.ReadLine();
 
         }
     }
