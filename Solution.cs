@@ -99,5 +99,28 @@ namespace Demo_Test_2
             }
         }
 
+        public string Mulitply(string num1, string num2)
+        {
+            
+            string multipliedNumber;
+            int number1;
+            int number2;
+
+            number1 = int.Parse(num1);
+            number2 = int.Parse(num2);
+
+            Console.WriteLine(number1 * number2);
+            multipliedNumber = Console.ReadLine();
+            return multipliedNumber;
+            Console.ReadLine();
+
+            //string.Join(" ", num1.Split(' ').OrderBy(c => c.ToList().Find(number1 => char.IsDigit(number1))));
+            //string.Join(" ", num2.Split(' ').OrderBy(c => c.ToList().Find(number2 => char.IsDigit(number2))));
+
+
+
+
+        }
+
     }
 }
