@@ -65,11 +65,6 @@ namespace Demo_Test_2
             Console.ReadLine();
         }
 
-        public void longEnoughMovies()
-        {
-
-        }
-
         //public static bool validPin(string pin){
         //foreach through ASCII
         //use length to set if it isnt 4 or 6 doesnt work
@@ -111,16 +106,13 @@ namespace Demo_Test_2
 
             Console.WriteLine(number1 * number2);
             multipliedNumber = Console.ReadLine();
-            return multipliedNumber;
-            Console.ReadLine();
+            return multipliedNumber;           
 
             //string.Join(" ", num1.Split(' ').OrderBy(c => c.ToList().Find(number1 => char.IsDigit(number1))));
             //string.Join(" ", num2.Split(' ').OrderBy(c => c.ToList().Find(number2 => char.IsDigit(number2))));
 
-
-
-
         }
 
+       
     }
 }
