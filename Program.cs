@@ -44,8 +44,11 @@ namespace Demo_Test_2
             //Solution solution = new Solution();
             //solution.Mulitply("2", "3");
 
-            Solution solution = new Solution();
-            Console.WriteLine(solution.validPin("9461"));
+            //Solution solution = new Solution();
+            //Console.WriteLine(solution.validPin("9461"));
+
+            //Console.WriteLine(likesButton.Likes(new string[] { })) ;
+            Console.WriteLine(likesButton.switchLikes(new string[] { "Sam", " Dean", " Bobby", " Castiel" }));
             Console.ReadLine();
 
         }
