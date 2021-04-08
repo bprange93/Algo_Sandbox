@@ -68,8 +68,7 @@ namespace Demo_Test_2
                 directionList.Remove("SOUTH");
                 
             }
-            //Console.WriteLine(directionList.ToArray());
-            //return Console.ReadLine();
+            
             foreach(string direction in directionList)
             {
                 Console.WriteLine(direction);
