@@ -55,8 +55,7 @@ namespace Demo_Test_2
             int wCount = directionList.Count(d => d == "WEST");
 
             for(int i = 0; i < Math.Min(eCount, wCount); i++)
-            {
-                directionList.First();
+            {                
                 directionList.Remove("EAST");
                 directionList.Remove("WEST");
                 
@@ -76,6 +75,40 @@ namespace Demo_Test_2
             return directionList.ToArray();
             
             
+        }
+
+        public static string[] dirReduc2(String[] arr)
+        {
+            return Recursive(arr);
+        }
+        public static string[] Recursive(string[] arr)
+        {
+            string[] newArray;
+            int newArrayLength = arr.Length;
+
+            for(int i = 0; i < arr.Length - 1; i++)
+            {
+                if (arr[i] == "") continue;
+                if(arr[i] == "NORTH " && arr[i + 1] =="SOUTH " ||
+                    arr[i] == "SOUTH " && arr[i + 1] == "NORTH " ||
+                    arr[i] == "EAST " && arr[i + 1] == "WEST " ||
+                    arr[i] == "WEST " && arr[i + 1] == "EAST ")
+                {
+                    arr[i] = "";
+                    arr[i + 1] = "";
+                    newArrayLength -= 2;
+                }
+            }
+            if (newArrayLength == arr.Length) return arr;
+            int index = 0;
+            newArray = new string[newArrayLength];
+            foreach (var direction in arr) {
+                if (direction != "")
+                    newArray[index++] = direction;
+                
+            }
+
+            return Recursive(newArray);
         }
 
 
