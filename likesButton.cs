@@ -46,6 +46,38 @@ namespace Demo_Test_2
             }
         }
 
+        public static string[] dirReduc(string[] arr)
+        {
+            List<string> directionList = arr.ToList();
+            int sCount = directionList.Count(d => d == "SOUTH");
+            int nCount = directionList.Count(d => d == "NORTH");
+            int eCount = directionList.Count(d => d == "EAST");
+            int wCount = directionList.Count(d => d == "WEST");
+
+            for(int i = 0; i < Math.Min(eCount, wCount); i++)
+            {
+                directionList.First();
+                directionList.Remove("EAST");
+                directionList.Remove("WEST");
+                
+            }
+            for (int i = 0; i < Math.Min(sCount, nCount); i++)
+            {
+                directionList.First();
+                directionList.Remove("NORTH");
+                directionList.Remove("SOUTH");
+                
+            }
+            //Console.WriteLine(directionList.ToArray());
+            //return Console.ReadLine();
+            foreach(string direction in directionList)
+            {
+                Console.WriteLine(direction);
+            }
+            return directionList.ToArray();
+            
+            
+        }
 
 
     }
