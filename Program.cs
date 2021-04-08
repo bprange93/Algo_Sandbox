@@ -49,13 +49,14 @@ namespace Demo_Test_2
 
             //Console.WriteLine(likesButton.Likes(new string[] { })) ;
             //Console.WriteLine(likesButton.switchLikes(new string[] { "Sam", " Dean", " Bobby", " Castiel" }));
-            string[] dir = { "NORTH ", "SOUTH ", "WEST ",  "SOUTH ", "EAST " };
-            string result = String.Concat(likesButton.dirReduc2(dir));            
-            Console.WriteLine(result);
+            //string[] dir = { "NORTH ", "SOUTH ", "WEST ",  "SOUTH ", "EAST " };
+            //string result = String.Concat(likesButton.dirReduc2(dir));            
+            //Console.WriteLine(result);
 
-             Console.ReadLine();
-
-
+            // Console.ReadLine();
+            likesButton.dirReducPushPop(new string[] { "NORTH", "SOUTH", "WEST", "SOUTH", "EAST", "WEST" });
+            Console.ReadLine();
+            
 
         }
     }
