@@ -49,7 +49,10 @@ namespace Demo_Test_2
 
             //Console.WriteLine(likesButton.Likes(new string[] { })) ;
             //Console.WriteLine(likesButton.switchLikes(new string[] { "Sam", " Dean", " Bobby", " Castiel" }));
-            likesButton.dirReduc(new string[] { "NORTH", "WEST", "SOUTH", "EAST" });
+            string[] dir = { "NORTH ", "SOUTH ", "WEST ",  "SOUTH ", "EAST " };
+            string result = String.Concat(likesButton.dirReduc2(dir));            
+            Console.WriteLine(result);
+
              Console.ReadLine();
 
 
