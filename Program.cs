@@ -48,8 +48,11 @@ namespace Demo_Test_2
             //Console.WriteLine(solution.validPin("9461"));
 
             //Console.WriteLine(likesButton.Likes(new string[] { })) ;
-            Console.WriteLine(likesButton.switchLikes(new string[] { "Sam", " Dean", " Bobby", " Castiel" }));
-            Console.ReadLine();
+            //Console.WriteLine(likesButton.switchLikes(new string[] { "Sam", " Dean", " Bobby", " Castiel" }));
+            likesButton.dirReduc(new string[] { "NORTH", "WEST", "SOUTH", "EAST" });
+             Console.ReadLine();
+
+
 
         }
     }
