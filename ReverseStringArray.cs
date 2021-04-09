@@ -52,7 +52,15 @@ namespace Demo_Test_2
 
         }
 
-
+        public static char[] reverseWithLoop(char[] array)
+        {
+            char[] reversedArray = new char[array.Length];
+            for (int i = array.Length - 1, j = 0; i >= 0; j++, i--)
+            {
+                reversedArray[j] = array[i];
+            }
+            return reversedArray;
+        }
 
     }
 }
