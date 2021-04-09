@@ -59,7 +59,8 @@ namespace Demo_Test_2
 
 
 
-            Console.WriteLine(ReverseStringArray.reverseWithLoop(new char[] { 'B','a','t','m','a','n'}));
+            //Console.WriteLine(ReverseStringArray.reverseWithLoop(new char[] { 'B','a','t','m','a','n'}));
+            
             Console.ReadLine();
         }
     }
