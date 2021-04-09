@@ -54,10 +54,13 @@ namespace Demo_Test_2
             //Console.WriteLine(result);
 
             // Console.ReadLine();
-            likesButton.dirReducPushPop(new string[] { "NORTH", "SOUTH", "WEST", "SOUTH", "EAST", "WEST" });
-            Console.ReadLine();
-            
+            //likesButton.dirReducPushPop(new string[] { "NORTH", "SOUTH", "WEST", "SOUTH", "EAST", "WEST" });
+            //Console.ReadLine();
 
+
+
+            Console.WriteLine(ReverseStringArray.reverseWithLoop(new char[] { 'B','a','t','m','a','n'}));
+            Console.ReadLine();
         }
     }
 }
