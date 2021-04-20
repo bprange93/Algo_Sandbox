@@ -40,5 +40,13 @@ namespace Demo_Test_2
             Console.ReadLine();
         }
 
+        //public static int[] searchRange(int[] nums, int target)
+        //{
+        //    int index = Array.IndexOf(nums, target);
+        //    Console.WriteLine(index);
+        //    return index;
+            
+        //}
+
     }
 }
