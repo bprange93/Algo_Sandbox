@@ -128,6 +128,12 @@ namespace Demo_Test_2
 
         }
 
+        public static void movieFlightTime()
+        {
+            string[] movieName;
+            int[] movieTime;
+            string[] movies;
+        }
        
     }
 }
