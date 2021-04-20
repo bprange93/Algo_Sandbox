@@ -8,7 +8,7 @@ namespace Demo_Test_2
 {
     class ReverseString
     {
-        public void reverseString()
+        public static void reverseString()
         {
             //Ask for them to input a string to be reversed. 
             string inputString;
@@ -24,6 +24,11 @@ namespace Demo_Test_2
             string resultString = string.Join(" ", inputString.Split(' ').Select(x => new String(x.Reverse().ToArray())));
             Console.WriteLine(resultString);
             Console.ReadLine();
+        }
+
+        public static bool isIsogram(string str)
+        {
+            return str.ToLower().Distinct().Count() == str.Length;
         }
 
         
