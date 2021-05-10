@@ -60,7 +60,9 @@ namespace Demo_Test_2
 
 
             //Console.WriteLine(ReverseStringArray.reverseWithLoop(new char[] { 'B','a','t','m','a','n'}));
-            ReverseString.isIsogram("Batman");
+            //ReverseString.isIsogram("Batman");
+
+            Number.digitalRoot(16);
             Console.ReadLine();
         }
     }
