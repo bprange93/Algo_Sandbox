@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Anagram.cs" />
     <Compile Include="likesButton.cs" />
+    <Compile Include="Number.cs" />
     <Compile Include="Palindrome.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
